@@ -9,6 +9,8 @@ namespace NZWalks_Learning.Profiles
         public RegionsProfile()
         {
             CreateMap<Region, RegionDto>().ReverseMap();
+
+            CreateMap<WalkDifficulty, WalkDifficultyDto>().ReverseMap();
         }
     }
 }
