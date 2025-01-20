@@ -10,7 +10,7 @@ namespace NZWalks_Learning.Profiles
         {
             CreateMap<Region, RegionDto>().ReverseMap();
 
-            CreateMap<WalkDifficulty, WalkDifficultyDto>().ReverseMap();
+            CreateMap<WalkDifficulty, UpdateWalkDifficultyDto>().ReverseMap();
         }
     }
 }
